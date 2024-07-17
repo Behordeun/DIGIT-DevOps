@@ -4,10 +4,10 @@
 cluster_name: "test-demo"
 
 # Replace with ssh key name you want
-ssh_key_name: "test-demo-ssh-key" 
+ssh_key_name: "test-demo-ssh-key"
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEyfjLaKskpv90BCvgVm2IFtf5V+B41YM7pSt73QID5/lByMuLRIcBum9n48A/BlxhkyI4TuF1GHXFKJju7UZA9ybVkhugpJhqFp+rjVcXNgYbeGToYcLRE88aFbhNDw9ZtSJF5Kd2fZUT9Vj7cMi1LqRLAprOp8FZWpdn1+QBDTJQVPUzWux0hmh56L00fjxTIMPhTbH8EQcyd4SVBuJvAO4Gs3/oNLOUhyA4yF49/bvY2x8Y4v9IDZgnHqTuAMeMQNn+nPoxP1eNVwOM/3Lx/a505uvMiim/cLSNFmn6sozo8VSwsK0lJGiiGaZiV7GLGEwVL+QA8/pDxXId5Rxb"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCx2n5UD95CppUBx0T8UBKHkHBc6/upA7IiaO2VHJlu5KCBYwyESWpSdhX5+kJT+nuDlplgObubA7XHUIcyBcIuof24EVby5cwpIsYB9l4ylhRGEOLXMbD97/kvAbnOh7iKVAHkRn4KI6IP/NoF4EderYU43cDo/2i64UBQu7r4/3sSgC2cjnpOJIfp+Pxh/v/OK4ZHnqwSaFhGp2nDmJDBlaxQIwL9HS01g7GszBOBceq7b0HUNpk/iXyTshtZufv2zjzS3fNnnyWcjp56cGp9TFLvipoYYhLschJCW4ocXcm5DGG4O1YXgzVIisFmydRUbB76o+PTZICq5wTFwZwVgMezMl1Yw8+71wuSstuOeHRp8fe5g1W+0Zv/f2HqMZnrvF3ma+Q9WdfurUS8Gr4zMAeyjpyzgFvEKkWbgYfKxAgk+U1DF/IjqCOtLp8MSL6FJTDD0j1L+QIeG8NYzyrRqJjDLDFp3ktYK+LYMUdOJLaX9IjCR1cDqWZspLGkh98= muhammadabiodunsulaiman@Muhammad"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
@@ -15,7 +15,7 @@ db_name: "testdemodb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "testdemo" 
+db_username: "testdemo"
 
 # Replace with Domain name you want for your web applications
 domain_name: "test-githubactions.digit.org"
